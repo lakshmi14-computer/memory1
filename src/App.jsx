@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import './App.css';
-import Title from './components/Title';
-import Stats from './components/Stats'
-import Cards from './components/Cards';
+import Title from './Components/Title';
+import Stats from './Components/Stats'
+import Cards from './Components/Cards';
 import { useEffect } from 'react';
-import GameOver from './components/GameOver';
+import GameOver from './Components/GameOver';
 
 let overlayStyle = {
   visibility: 'hidden',
